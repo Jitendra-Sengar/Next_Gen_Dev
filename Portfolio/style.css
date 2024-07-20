@@ -189,7 +189,26 @@ body{
 
 }
 /* --------------------contact------------- */
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #262626;
+}
 
+#contact input{
+    border-radius: 5%;
+    padding: 15px;
+}
+#contact span{
+    display: block;
+    margin: 20px;
+}
+
+#contact button{
+    border-radius: 10%;
+    padding: 10px;
+}
 
 
 /* -----------------css for small screen----------- */
